@@ -1,0 +1,17 @@
+{
+  "name": "separate-logs-by-days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "pino": "^8.6.1",
+    "pino-multi-stream": "^6.0.0",
+    "rotating-file-stream": "^3.0.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "2-pino-rotating-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node . | rotate-logs --config=./logs.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vrbo/pino-rotating-file": "^4.1.0",
+    "fastify": "^4.9.2",
+    "pino-pretty": "^9.1.1"
+  }
+}
